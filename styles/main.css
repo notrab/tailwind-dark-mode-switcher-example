@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-mode {
+  --white: white;
+  --black: black;
+}
+
+.dark-mode {
+  --white: black;
+  --black: white;
+}
+
+body {
+  @apply bg-white p-10;
+}
